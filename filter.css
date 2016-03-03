@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#sidebar {
+  padding: 35px 5px 35px;
+  width: 200px;
+  background-color: #043544;
+}
+
+#sidebar li {
+  margin-bottom: -25px;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+}
+
+#sidebar a, #sidebar a:hover, #sidebar a:active, #sidebar a:visited {
+  color: #AEE0E2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#sidebar a span {
+  font-size: .75em;
+  left: 0;
+  right: 0;
+  top: 48%;
+  position: absolute;
+}
+
+#sidebar a span.two-lines {
+  top: 42%;
+}
